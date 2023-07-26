@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="main.js" defer></script>
+    
+</head>
+<body>
+    <div class="header">To-Do-List</div>
+    <div class="body">
+        <div class="sidebar">
+            <div>
+                <div id='inbox' class="border">Inbox</div>
+                <div id='today' class="border">Today</div>
+                <div id='thisWeek' class="border">This Week</div>
+            </div>
+            <div>
+                <div id='project' class="Project">Project</div>
+                <div>+ add</div>
+            </div>
+        </div>
+        <div class="addtask">
+            
+        </div>
+    </div>
+    <div class="form">
+        <form>
+            <label for="title">Title:</label>
+            <input type="text" id="title" name="title" required>
+            
+            <label for="description">Description:</label>
+            <input type="text" id="description" name="description" required>
+            
+            <label for="dueDate">dueDate:</label>
+            <input type='text' id="dueDate" name="dueDate"  required></input>
+
+            <label for="dropdown">Priority:</label>
+            <select id="dropdown" name="dropdown">
+                <option value="option1">High</option>
+                <option value="option2">Medium</option>
+                <option value="option3">Low</option>
+            </select>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

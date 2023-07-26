@@ -1,0 +1,94 @@
+html, body{
+    margin: 0;
+}
+.header{
+    background-color: #333333;
+    padding: 30px;
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: 700;
+    box-shadow: 0 8px 16px rgba(100, 100, 100, 0.8);
+}
+.body{
+    display: flex;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+.sidebar{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #888888;
+    color: white;
+    font-size: 40px;
+    gap:40px;
+}
+.border{
+    border-bottom: 2px solid white;
+}
+.Project{
+    font-size: 40px;
+    border-bottom: 2px solid white;
+}
+.addtask{
+    flex:4;
+    background-color: white;
+    
+    padding: 30px;
+}.add{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.add1{
+    font-size: 40px;
+    background-color: lightgray;
+    color: #333333 ;
+    font-weight: 700;
+    border-radius: 8px;
+}
+.form{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #999999;
+    padding: 30px;
+
+}.taskElements{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   
+}
+.taskcontainer{
+    background-color: lightgray;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    
+}
+.taskheader{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+}
+.element0{
+    font-size: 30px;
+    font-weight: 600; 
+}
+.elementx{
+    font-size: 30px;
+    font-weight: 600;
+    background-color: whitesmoke ;
+    
+}.elementx:hover{
+    background-color: red;
+    border-radius: 8px;
+    padding: 2px;
+    color: white;
+}
